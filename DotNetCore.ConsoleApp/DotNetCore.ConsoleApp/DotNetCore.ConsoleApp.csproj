@@ -1,4 +1,5 @@
 <Project ToolsVersion="4.0" DefaultTargets="BuildTarget" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="BuildTarget">
 	<Message Text="Build selected" Importance="high"/>
   </Target>
