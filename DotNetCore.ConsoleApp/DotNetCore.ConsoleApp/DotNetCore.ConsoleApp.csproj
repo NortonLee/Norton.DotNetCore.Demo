@@ -1,5 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project ToolsVersion="4.0" DefaultTargets="BuildTarget" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" Sdk="Microsoft.NET.Sdk">
+  <Target Name="BuildTarget">
+	<Message Text="Build selected" Importance="high"/>
+  </Target>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.1</TargetFramework>
